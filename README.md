@@ -10,7 +10,7 @@ có sản phẩm abby tương tự thì cần thêm thông tin vào trường `c
     "_id": ,
     "competitor": ,
     "link": ,
-    "price: "
+    "price": 
   }
   ```
 
