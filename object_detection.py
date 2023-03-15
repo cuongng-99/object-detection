@@ -112,9 +112,10 @@ def crop_hosted_image(urls, output_folder, save=True):
                 if num_image_cropped % 50 == 0:
                     print(f"Đã thêm {num_image_cropped} ảnh")
             i += 1
-
+            del crop_image
         except Exception as e:
             print(f"Lỗi {e}: {image}")
+        del image
     return croped_images
 
 
